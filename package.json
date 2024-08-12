@@ -1,0 +1,27 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --require @babel/register",
+    "test-html": "mocha --reporter mochawesome"
+  },
+  "author": "Angga Herma",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/register": "^7.24.6",
+    "chai": "^4.3.6",
+    "chai-http": "^5.0.0",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1",
+    "supertest": "^7.0.0"
+  }
+}
