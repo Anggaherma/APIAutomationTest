@@ -8,7 +8,9 @@ This project contains a suite of API tests for OpenWeatherMap endpoints using `s
 
 ## Prerequisites
 
-- Node.js (>=14.0.0)
+- Node.js (version 21 or lower) to avoid version compatibility issues
+- Obtain your API key from OpenWeatherMap. You can find it on your account page under the "API key" tab or at https://home.openweathermap.org/api_keys
+- Replace "apikey" to the config.json file in the resources directory
 
 ## Installation
 
@@ -16,7 +18,6 @@ This project contains a suite of API tests for OpenWeatherMap endpoints using `s
 
    ```bash
    git clone <repository-url>
-   cd apitest
    ```
 
 2. Install dependencies:
@@ -26,7 +27,7 @@ This project contains a suite of API tests for OpenWeatherMap endpoints using `s
 
 ## How to run
 
-- run this command `npm run test-html`
+- run this command `npm run test`
 
 ### Report
 - To check the HTML report, navigate to `mochawesome-report/` directory, and open the `mochawesome.html` file from your browser.

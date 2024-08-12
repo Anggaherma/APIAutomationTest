@@ -5,8 +5,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "mocha --require @babel/register",
-    "test-html": "mocha --reporter mochawesome"
+    "test": "mocha --reporter mochawesome"
   },
   "author": "Angga Herma",
   "license": "ISC",

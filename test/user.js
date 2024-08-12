@@ -15,7 +15,7 @@ describe("Weather and Air Pollution of Jakarta Selatan", () => {
   it("Get 5 day weather forecast of Jakarta Selatan", async () => {
     const params = {
       ...config.forecast,
-      appid: config.apikey,
+      appid: config.apikey
     };
 
     const res = await request.get("/data/2.5/forecast").query(params);
@@ -57,7 +57,7 @@ describe("Weather and Air Pollution of Jakarta Selatan", () => {
   it("Get current air pollution of Jakarta Selatan", async () => {
     const params = {
       ...config.airPollution,
-      appid: config.apikey,
+      appid: config.apikey
     };
 
     const res = await request.get("/data/2.5/air_pollution").query(params);
@@ -65,7 +65,6 @@ describe("Weather and Air Pollution of Jakarta Selatan", () => {
     expect(res.status).to.equal(200);
     expect(res.body).to.have.property("list").that.is.an("array").and.is.not.empty;
     expect(res.body).to.be.jsonSchema(airPollutionSchema);
-    // console.log(res.body);
 
     const firstItem = res.body.list[0];
     expect(firstItem).to.include.all.keys("main", "components");

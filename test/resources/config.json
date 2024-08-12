@@ -1,14 +1,12 @@
 {
-  "apikey": "e2ffe7cc313a6be54d06ae4e57571149",
+  "apikey": "",
   "forecast": {
     "lat": "-6.2926",
     "lon": "106.7787",
-    "appid": "e2ffe7cc313a6be54d06ae4e57571149",
     "units": "metric"
   },
   "airPollution": {
     "lat": "-6.2926",
-    "lon": "106.7787",
-    "appid": "e2ffe7cc313a6be54d06ae4e57571149"
+    "lon": "106.7787"
   }
 }
