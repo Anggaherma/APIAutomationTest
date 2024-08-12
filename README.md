@@ -1,7 +1,7 @@
-# weatherAutomationTest
+## weatherAutomationTest
 This repo is for weather automation test
 =======
-# API Test Suite
+## API Test Suite
 
 This project contains a suite of API tests for OpenWeatherMap endpoints using `supertest`, `chai`, and `mocha`. The tests are written in JavaScript using ES modules and are transpiled with Babel.
 
