@@ -10,7 +10,7 @@ This project contains a suite of API tests for OpenWeatherMap endpoints using `s
 
 - Node.js (version 21 or lower) to avoid version compatibility issues
 - Obtain your API key from OpenWeatherMap. You can find it on your account page under the "API key" tab or at https://home.openweathermap.org/api_keys
-- Replace "apikey" to the config.json file in the resources directory
+- Fill "apikey" to the config.json file in the resources directory
 
 ## Installation
 
