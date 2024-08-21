@@ -1,4 +1,4 @@
-# API Automation Test (Flip Tech Test Chapter 3.1)
+# API Automation Test 
 
 This repo is for weather automation test
 
